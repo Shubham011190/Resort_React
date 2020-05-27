@@ -1,12 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Home from './pages/Home';
+import Error from './pages/Error';
+import SingleRoom from './pages/SingleRoom';
+import Rooms from './pages/Rooms';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <Home />
+      <Rooms />
+      <SingleRoom />
+      <Error />
+      </>
+
   );
 }
 
