@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-export default class SingleRoom extends Component {
+export default class Navbar extends Component {
     render() {
         return (
             <div>
-                <p>Hello from SingleRoom</p>
+                Hello from Navbar
             </div>
         )
     }
